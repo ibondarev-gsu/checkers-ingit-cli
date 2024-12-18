@@ -2,9 +2,10 @@ package test_test
 
 import (
 	"context"
+	"testing"
+
 	"github.com/ibondarev/checkers/x/checkers/keeper"
 	"github.com/ibondarev/checkers/x/checkers/types"
-	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	keepertest "github.com/ibondarev/checkers/testutil/keeper"

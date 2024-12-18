@@ -5,8 +5,8 @@ import (
 	"strconv"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/ibondarev/checkers/x/checkers/types"
 	"github.com/ibondarev/checkers/x/checkers/rules"
+	"github.com/ibondarev/checkers/x/checkers/types"
 )
 
 func (k msgServer) CreateGame(goCtx context.Context, msg *types.MsgCreateGame) (*types.MsgCreateGameResponse, error) {

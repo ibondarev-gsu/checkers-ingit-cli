@@ -1,8 +1,9 @@
 package test
 
 import (
-	"github.com/ibondarev/checkers/x/checkers/types"
 	"testing"
+
+	"github.com/ibondarev/checkers/x/checkers/types"
 
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/ibondarev/checkers/testutil/sample"

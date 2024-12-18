@@ -3,8 +3,8 @@ package types
 import (
 	"fmt"
 
-	"github.com/ibondarev/checkers/x/checkers/rules"
 	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/ibondarev/checkers/x/checkers/rules"
 	sdkerrors "github.com/pkg/errors"
 )
 
