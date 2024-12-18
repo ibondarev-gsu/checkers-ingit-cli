@@ -1,4 +1,4 @@
-package keeper_test
+package test_test
 
 import "github.com/ibondarev/checkers/x/checkers/testutil"
 

@@ -1,13 +1,13 @@
-package types_test
+package test_test
 
 import (
 	"strings"
 	"testing"
 
+	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ibondarev/checkers/x/checkers/rules"
 	"github.com/ibondarev/checkers/x/checkers/testutil"
 	"github.com/ibondarev/checkers/x/checkers/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )
 
